@@ -1,0 +1,26 @@
+<xml>
+  <stop uri='eastbound_on_harbord_at_grace'>
+    <name>Eastbound on Harbord at Grace</name>
+    <routes>
+      <route uri='94_wellesley'>
+        <name>94 Wellesley</name>
+        <stoptimes>
+          <stoptime>
+            <time timestamp='1239490041'>6:47p</time>
+            <route uri='94_wellesley_to_castle_frank_station'>94 Wellesley to Castle Frank Station</route>
+          </stoptime>
+          <stoptime>
+            <time timestamp='1239490761'>6:59p</time>
+            <route uri='94_wellesley_to_castle_frank_station'>94 Wellesley to Castle Frank Station</route>
+          </stoptime>
+          <stoptime>
+            <time timestamp='1239491429'>7:10p</time>
+            <route uri='94_wellesley_to_castle_frank_station'>94 Wellesley to Castle Frank Station</route>
+          </stoptime>
+        </stoptimes>
+      </route>
+    </routes>
+    <transfers>
+    </transfers>
+  </stop>
+</xml>

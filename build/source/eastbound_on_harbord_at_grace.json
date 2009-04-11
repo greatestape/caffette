@@ -1,0 +1,33 @@
+{
+    "name":"Eastbound on Harbord at Grace",
+    "uri":"eastbound_on_harbord_at_grace",
+    "routes":[
+        {
+            "name":"94 Wellesley",
+            "uri":"94_wellesley",
+            "id":"2713",
+            "stop_times":[
+                {
+                    "timestamp":1239486441,
+                    "time":"5:47p",
+                    "shape":"94 Wellesley to Castle Frank Station",
+                    "shape_id":373
+                },
+                {
+                    "timestamp":1239487161,
+                    "time":"5:59p",
+                    "shape":"94 Wellesley to Castle Frank Station",
+                    "shape_id":373
+                },
+                {
+                    "timestamp":1239487881,
+                    "time":"6:11p",
+                    "shape":"94 Wellesley to Castle Frank Station",
+                    "shape_id":373
+                }
+            ]
+        }
+    ],
+    "id":"7475",
+    "transfers":[]
+}
