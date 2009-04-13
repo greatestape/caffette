@@ -1,0 +1,21 @@
+body {
+    background: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+#PageTitle {
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    background: url('../images/back_title.png');
+    background: rgb(244, 51, 0) url('../images/back_title.png') repeat-x;
+    color: white;
+    font-family: Courier, "Courier New", serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 70%;
+}
