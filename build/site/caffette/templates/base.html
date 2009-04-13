@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ lang }}" lang="{{ lang }}">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+        <title>{% block title %}Caffette - The Linux Caffe Local Portal{% endblock %}</title>
+        
+        <style type="text/css" media="all">
+            @import "{{ MEDIA_URL }}bundled/css/screen.css";
+        </style>
+        {% block css %}{% endblock %}
+        {% block syndication %}{% endblock %}
+    </head>
+    <body class="{% block body_class %}{% endblock %}">
+        {% block body %}
+            <h1 id="PageTitle">{% block page_heading %}Caffette: <span class="subtitle">The Linux Caffe Local Portal</span>{% endblock %}</h1>
+            <div id="MainContent">
+                {% block content %}{% endblock %}
+            </div>
+        {% endblock %}
+    </body>
+</html>

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load ttc_tracker_tags %}
+
+{% block content %}
+
+{# TODO: TTC Section #}
+<div class="full_strip">
+    <div class="half" id="TTCBox">
+        <h2>TTC:</h2>
+        {% get_stops %}
+        <ul>
+            {% for stop in stops %}
+                {% for stop_time in stop.next_arrivals %}
+            <li>{{ stop_time.route_name }}: {{ stop_time.when|rough_wait }}</li>
+                {% endfor %}
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+{# TODO: What's Playing Section #}
+
+{# TODO: corkboard section #}
+
+{# TODO: IRC section #}
+
+{% endblock %}
